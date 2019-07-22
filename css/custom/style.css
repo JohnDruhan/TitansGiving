@@ -364,13 +364,13 @@
      background-image: url("../../images/1920x800x1.jpg");
 }
  .header-bgimage-slider-1 {
-     background-image: url("../../images/slider-1.jpg");
+     background-image: url("../../images/slider-1.png");
 }
  .header-bgimage-slider-2 {
-     background-image: url("../../images/slider-2.jpg");
+     background-image: url("../../images/slider-2.png");
 }
  .header-bgimage-slider-3 {
-     background-image: url("../../images/slider-3.jpg");
+     background-image: url("../../images/slider-3.png");
 }
  .heading-padding {
      padding-bottom:230px;
@@ -392,38 +392,42 @@
      font-weight:600;
      margin:0 auto;
      width:80%;
+     text-shadow: 2px 2px #FF0000
 }
  .header-bgimage-slider-2 .header-div {
      width:80%;
 }
  .header-bgimage-slider-2 .header-div h1 {
-     color: #333333;
+     color: #ffffff;
+     /* text-shadow: 2px 2px #FF0000 */
      font-size:55px;
      font-weight:700;
      letter-spacing:1px;
      line-height:65px;
 }
  .header-bgimage-slider-2 .header-div p{
-     color:#666666;
+     color:#ffffff;
      font-weight:600;
      width:80%;
+     text-shadow: 2px 2px #FF0000
 }
  .header-bgimage-slider-3 .header-div {
      margin:0 auto;
      width:80%;
 }
  .header-bgimage-slider-3 .header-div h1 {
-     color: #333333;
+     color: lightblue;
      font-size:55px;
      font-weight:700;
      letter-spacing:1px;
      line-height:65px;
 }
  .header-bgimage-slider-3 .header-div p{
-     color:#666666;
+     color: lightblue;
      font-weight:600;
      margin-left: auto;
      width:80%;
+     text-shadow: 2px 2px #FF0000
 }
  .header-slider.owl-theme .owl-controls .owl-page span {
      background-color:#eb593b;
@@ -834,7 +838,7 @@
 /*========================================== 9.SERVICES ENDS ===========================================*/
 /*========================================== 10.CTA START ===========================================*/
  .cta-bgimage {
-     background-image: url("../../images/1920x700x1.jpg");
+     background-image: url("../../images/CTA\ Background.png");
      padding:180px 0;
 }
  .cta-div {
@@ -842,17 +846,20 @@
      width:80%;
 }
  .cta-div h1 {
-     color: #ffffff;
+     color: red;
      font-size:55px;
      font-weight:700;
      letter-spacing:1px;
      line-height:65px;
+     text-shadow: 1px 1px lightblue;
+
 }
  .cta-div p{
-     color:#ffffff;
+     color: red;
      font-weight:600;
      margin:0 auto;
      width:80%;
+     text-shadow: 1px 1px lightblue;
 }
  .client-logo .item {
      margin:0 auto;
@@ -962,7 +969,7 @@
 /*========================================== 12.GALLERY ENDS ===========================================*/
 /*========================================== 13.COUNTER START ===========================================*/
  .counter-bgimage {
-     background-image: url("../../images/1920x700x2.jpg");
+     background-image: url("../../images/counter-bgimage\ .png");
      padding:150px 0;
 }
  .counter-div img {
@@ -975,11 +982,13 @@
      letter-spacing:1px;
      line-height:55px;
      margin-top:20px;
+     text-shadow: 1px 1px lightblue;
 }
  .counter-title {
      color:#ffffff;
      font-weight:600;
      letter-spacing:1px;
+     text-shadow: 1px 1px lightblue;
 }
  .counter-img {
      display: inline-block;
