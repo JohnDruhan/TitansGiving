@@ -10,10 +10,10 @@ $mail = new PHPMailer;
 $to_email = 'jfrancisdruhan@gmail.com';
 
 //Enter Your Name Here
-$to_name = "Your_Name";
+$to_name = "John Druhan";
 
 //Enter Your Subject Here
-$subject = "Email_Subject";
+$subject = "New Contact";
 
 $mail_content = '';
 if( isset($_POST['name']) && isset($_POST['email']) && isset($_POST['message']) ||  isset($_POST['phone']) )  {	
