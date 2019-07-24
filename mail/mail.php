@@ -7,7 +7,7 @@ require 'phpmailer/PHPMailerAutoload.php';
 $mail = new PHPMailer;
 
 //Enter Your Email Address Here
-$to_email = 'yourmail@website.com';
+$to_email = 'jfrancisdruhan@gmail.com';
 
 //Enter Your Name Here
 $to_name = "Your_Name";
