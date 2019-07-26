@@ -7,10 +7,10 @@ require 'phpmailer/PHPMailerAutoload.php';
 $mail = new PHPMailer;
 
 //Enter Your Email Address Here
-$to_email = 'jfrancisdruhan@gmail.com';
+$to_email = 'chairman@AEHSHOF.com';
 
 //Enter Your Name Here
-$to_name = "John Druhan";
+$to_name = "Bob";
 
 //Enter Your Subject Here
 $subject = "New Contact";
